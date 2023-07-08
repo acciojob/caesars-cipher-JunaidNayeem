@@ -65,7 +65,7 @@ function rot13(encodedStr) {
 
   // Return the decoded string
   return decodedString;
-	console.log(decodedString);
+	console.log("decode",decodedString);
 	window.show(decodedString);
 }
 
